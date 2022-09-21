@@ -1,0 +1,7 @@
+name: MinigameAPI
+version: '${project.version}'
+main: com.spaceniklas.minigameapi.MinigameAPI
+api-version: 1.19
+authors: [ SpaceNiklas ]
+description: SpaceGames Minigame API!
+website: www.spacegames.space
