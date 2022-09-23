@@ -1,0 +1,27 @@
+required-players: 2
+countdown-seconds: 60
+main-color: AQUA
+accent-color: WHITE
+lobby-spawn:
+  world: 'spawn_spacecraft'
+  x: 0.5
+  y: 69
+  z: 21.5
+  yaw: 180
+  pitch: 0
+arenas:
+
+holograms:
+  solo:
+    world: 'spawn_spacecraft'
+    x: -3.5
+    y: 70
+    z: 12.5
+  doubles:
+    world: 'spawn_spacecraft'
+    x: 4.5
+    y: 70
+    z: 12.5
+
+
+

@@ -25,7 +25,7 @@ public class Arena {
     private List<UUID> players;
     public Countdown countdown;
 
-    private Game game;
+    private com.spacegames.cyborg.instance.Game game;
 
     public Arena(MinigameAPI minigameAPI, int id, Location spawn){
         this.minigameAPI = minigameAPI;
@@ -35,7 +35,7 @@ public class Arena {
         this.state = GameState.RECRUITING;
         this.players = new ArrayList<>();
         this.countdown = new Countdown(minigameAPI, this);
-        this.game = new Game(this);
+        this.game = new Game
     }
 
     /* GAME */
